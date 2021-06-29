@@ -60,3 +60,10 @@ slf4j의 인기가 높아지다 보니 slf4j 자체에도 로깅 implementation�
 
 Implementation은 logback이나 log4j2를 사용할 것
 logback이 다른 라이브러리보다 조금 더 핫 하며 log4j2가 조금 더 많은 기능을 제공한다.
+
+
+## logback
+- 스프링 부트의 기본으로 설정되어 있어서 사용시 별도로 라이브러리를 추가하지 않아도 된다.
+- 자바 오픈소스 로깅 프레임워크,  SLF4J의 구현체 ( slf4j는 인터페이스다 )
+- spring-boot-starter-web 안에 spring-boot-starter-logging에 구현체가 있다.
+
