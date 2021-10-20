@@ -78,3 +78,6 @@ logger.error("message : {}" + e.getMessage());
 logger.error("message : {}", e.getMessage()); // 로그를 출력하지 않을 경우 필요 없는 문자열 더하기 연산이 발생하지 않는다.
 ````
 
+## 필수로 일어보자
+https://yangbongsoo.gitbook.io/study/undefined/log
+
