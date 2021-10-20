@@ -68,7 +68,7 @@ logback이 다른 라이브러리보다 조금 더 핫 하며 log4j2가 조금 �
 - 자바 오픈소스 로깅 프레임워크,  SLF4J의 구현체 ( slf4j는 인터페이스다 )
 - spring-boot-starter-web 안에 spring-boot-starter-logging에 구현체가 있다.
 
-## Tip
+## Tip1
 - BAD
 ````java
 logger.error("message : {}" + e.getMessage());
@@ -79,6 +79,10 @@ logger.error("message : {}", e.getMessage()); //
 ````
 1. 가독성이 좋다
 2. 로그를 출력하지 않을 경우 필요 없는 문자열 더하기 연산이 발생하지 않는다.
+
+## Tip2
+- Exception의 stack trace를 로깅할 때도 e.printStackTrace() 사용 금지
+- e.printStackTrace()은 내부적으로 java.lang.System.err를 이용해서 로그를 남긴다.
 
 ## 필수로 일어보자
 https://yangbongsoo.gitbook.io/study/undefined/log
