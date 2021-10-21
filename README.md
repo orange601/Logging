@@ -81,7 +81,7 @@ logger.error("message : {}", e.getMessage()); //
 2. 로그를 출력하지 않을 경우 필요 없는 문자열 더하기 연산이 발생하지 않는다.
 
 ## Tip2
-- Exception의 stack trace를 로깅할 때도 e.printStackTrace() 사용 금지
+- Exception의 stack trace를 로깅할 때도 e.printStackTrace() 사용하면 안된다.
 - e.printStackTrace()은 내부적으로 java.lang.System.err를 이용해서 로그를 남긴다.
 
 ## 필수로 일어보자
