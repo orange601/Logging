@@ -84,6 +84,6 @@ logger.error("message : {}", e.getMessage()); //
 - Exception의 stack trace를 로깅할 때도 e.printStackTrace() 사용하면 안된다.
 - e.printStackTrace()은 내부적으로 java.lang.System.err를 이용해서 로그를 남긴다.
 
-## 읽어보기 ##
+## 참조블로그 ##
 https://yangbongsoo.gitbook.io/study/undefined/log
 
